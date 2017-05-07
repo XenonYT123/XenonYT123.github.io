@@ -1,0 +1,153 @@
+<!DOCTYPE html> <!-- This declares HTML -->
+<html>
+
+    <head>
+    <meta charset="UTF-8">
+    <!-- Title of this page -->
+    <title>About Me</title>
+    <!-- This links this page to the CSS -->
+    <link rel= "stylesheet" href="style.css">
+    </head>
+    <body>
+    
+    <!-- This is the code used for the navigation bar -->
+    <ul>
+        <li><a href="home.html">Home</a></li>    
+        <li><a href="lifedreams.html">Life Dreams</a></li>    
+        <li><a href="youtubelife.html">YouTube life</a></li>    
+        <li><a href="aboutme.html">About Me</a></li>      
+    </ul>
+        
+        <!-- This is an anchor tag used to link an additional site to this page -->
+        <a href="https://www.youtube.com/channel/UCrhad402yocRaP2gDlC5wMw">Click here to check out my YouTube Channel</a>
+
+        
+        <!-- This will be on the left side -->
+        <div class="leftSide">
+            <h1>About Me</h1>
+            <h3>My name is Quinn Mortensen, I live in Palmerston North in New Zealand. I am 15 years old, and I love anything cars. I love spending time with my friends in town in the weekend and at school. I  make Youtube videos in my free time for my Youtube channel which you can find the link to above. I love spending time with electronics (mostly computers) because I love working with them from gaming, photoshopping, video editing.</h3>
+        
+        </div>
+        
+        <div id="rigthSide">
+            
+            <!-- This is used to add a GIF instead of a image -->
+            <img id="sleepygif" src="Sleepy.gif" alt="This is a random GIF I made on Piskel.">
+        </div>
+        
+        <style>
+           
+        /* The code that imports the text from google fonts */
+        @import url('https://fonts.googleapis.com/css?family=Lemonada|Oswald|Sansita');
+            
+        /* This is the code used to make a selected image my background */      
+        body {
+           background: url(P1.png) no-repeat center center fixed;
+           background-size: cover;
+        }
+       
+       
+        h1 {
+            /* This declares the font being used */
+            font-family: 'Monospace';
+            font-size: 75px;
+            color: #ffffff;
+        }
+        
+        h3 { 
+            /* This declares the font being used */
+            font-family: 'Sansita';
+            font-size: 20px;
+            color: #ffffff;
+        }
+        
+        h4 {
+            /* This declares the font being used */
+            font-family: 'Oswald';
+            font-size: 25px;
+            color: #ffffff;
+        }
+        
+        h5 {
+            /* This declares the font being used */
+            font-family: 'Oswald';
+            font-size: 25px;
+            color: #ffffff;
+        }
+        
+        p {
+            /* This declares the font being used */
+            font-family: 'Oswald';
+            font-size: 20px;
+            color: #00ffce;
+        }
+        
+        /* This tells one of the div classes to be on the left side of the page */ 
+        .leftSide {
+            width: 33%;
+            height: 500px;
+          
+            float: left;
+        }
+
+        /* This tells one of the div classes to be in the middle of the page */
+        .middle {
+            width: 33%;
+            height: 500px;
+            
+            float: left;
+    
+        }
+        
+        /* This tells one of the div classes to be on the right side of the page */    
+        #rightSide {
+            width: 33%;
+            height: 500px;
+            
+            float: left;
+        }
+
+        /* This determines the size of the selected image */
+        #profilePicture {
+            width: 80%;
+        }
+        
+        /* This determines the size of the selected image */
+        #nissangtr {
+            width: 100%;
+        }
+
+        /* This gets rid of the underline of the page link on the navigation bar do it looks more clean */    
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* This does the colour, size, font, padding etc. for the navigation bar */    
+        li a {
+            display: inline;
+            font-size: 30px;
+            font-family: monospace;
+            color: white;
+            background-color: black;
+            float: left;
+            padding: 20px 50px;
+        }
+        
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* This makes the navigation bar change colours when you hover over one of the pages */    
+        li a: hover {
+            background-color: grey;
+            color: black;
+        }     
+        
+        </style>
+             
+    </body>
+
+</html>

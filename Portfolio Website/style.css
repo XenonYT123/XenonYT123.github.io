@@ -1,0 +1,93 @@
+        body {
+           background: url(city.jpg) no-repeat center center fixed;
+           background-size: cover;
+       }
+       
+       
+        h1 {
+            font-family: 'Monospace';
+            font-size: 75px;
+            color: #ffffff;
+        }
+        
+        h3 { 
+            font-family: 'Sansita';
+            font-size: 25px;
+            color: #ffffff;
+        }
+        
+        h4 {
+            font-family: 'Oswald';
+            font-size: 25px;
+            color: #ffffff;
+        }
+        
+        h5 {
+            font-family: 'Oswald';
+            font-size: 25px;
+            color: #ffffff;
+        }
+        
+        p {
+            font-family: 'Oswald';
+            font-size: 20px;
+            color: #00ffce;
+        }
+        
+        .leftSide {
+            width: 33%;
+            height: 500px;
+          
+            float: left;
+        }
+
+        .middle {
+            width: 33%;
+            height: 500px;
+            
+            float: left;
+    
+        }
+        
+        #rightSide {
+            width: 33%;
+            height: 500px;
+            
+            float: right;
+        }
+
+
+        
+        #profilePicture {
+            width: 80%;
+        }
+        
+        #nissangtr {
+            width: 100%;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        li a {
+            display: inline;
+            font-size: 30px;
+            font-family: monospace;
+            color: white;
+            background-color: black;
+            float: left;
+            padding: 20px 50px;
+        }
+        
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        li a: hover {
+            background-color: grey;
+            color: black;
+        }
